@@ -10,3 +10,34 @@ body {
     background-color: ;
     color: #289BDE;
 }
+
+.extra-button {
+    display: none;
+}
+
+@media only screen and (max-width: 578px) {
+    .extra-button {
+        visibility: visible;
+        display: inline;
+
+    }
+
+    .carou-h1 {
+        font-size: 20px;
+    }
+
+    .carou-p {
+        font-size: 10px;
+        margin-bottom: 0%;
+    }
+
+    .carou-btn {}
+
+    .carou-height {
+        height: 300px;
+    }
+
+    .img-height {
+        height: 100%;
+    }
+}
