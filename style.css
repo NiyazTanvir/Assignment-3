@@ -48,11 +48,22 @@ body {
         visibility: hidden;
         display: inline;
     }
+
+    .student-feedback-button-for-tab {
+        visibility: visible;
+        display: inline;
+    }
 }
 
 @media only screen and (max-width: 2000px) {
     .extra-button-for-full {
         visibility: visible;
+        display: inline;
+
+    }
+
+    .student-feedbac-button-for-full {
+        visibility: hidden;
         display: inline;
 
     }
